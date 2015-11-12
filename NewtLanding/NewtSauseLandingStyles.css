@@ -1,0 +1,47 @@
+body { 
+	margin: 0px;
+	padding: 0px;
+}
+header { 
+	background-image: url(../NewtIMGs/NewtBack2.jpg);
+	height: 100vh;
+	background-size: cover;
+	font-family: fantasy;
+}
+.header-content { 
+	background-image: url(../NewtIMGs/NewtFront.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.header-menu {
+    height: 425px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #000000;
+    border-radius: 5px;
+    color: darkred;
+}
+.header-menu ul {
+    height: auto;
+    padding: 0px;
+}
+.header-menu li {
+    display: inline-flex;
+    padding: 0px;
+}
+.header-menu a {
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    color: darkred;
+}
+.header-menu a:hover {
+    color: ghostwhite;
+}

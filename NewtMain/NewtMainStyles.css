@@ -1,0 +1,114 @@
+body { 
+	margin: 0;
+	padding: 0;
+    text-decoration: none;
+}
+header { 
+	background-image: url(../IMGs/Mark2.png);
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+	width: auto;
+    display: flex;
+}
+
+nav {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 21px;
+    text-shadow: 0 3px 6px 0;
+    background-color: #333333;
+}
+nav ul {
+    height: auto;
+    padding: 0px;
+}
+nav li {
+    display: inline-flex;
+    padding: 0px;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+}
+nav a:hover {
+    color: #ffffff
+}
+Clear {
+    clear: both;
+}
+article {
+    width: auto;
+    margin: auto;    
+    /* Not putting a height with a width allows the entity to adjust based on the content */
+    padding: 0 15px 0 15px;
+  }
+.alternate-container {
+    width: 100%;
+    padding: 0;
+}
+
+.section {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+  text-align: center;
+  text-decoration: none;
+}
+
+aside {
+    height: auto;
+    width: auto;
+    background-color: #333333;
+    margin-left: 0;
+    text-align: center;
+  }
+
+footer {
+  clear: both;
+  width: auto;
+  height: 200px;
+  background-color: #333333;
+  padding: 0 15px 0 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:fantasy;
+    font-weight: lighter;
+    text-align: center;
+    color: black
+}
+p { 
+    text-align: center;
+    color: #000000;
+}
+
+/* Seperate page Use what you can */
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(../IMGs/MerchBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    height: 100%;
+    width: 100%;
+}
+header {
+  width: 100%;
+  height: 160px;
+  padding: 8px 40px 40px 40px;
+  text-align: center;
+}
+
+logo {
+    image-orientation: center;    
+}
